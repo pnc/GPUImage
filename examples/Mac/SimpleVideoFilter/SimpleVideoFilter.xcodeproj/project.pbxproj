@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ADF8E481B02DB5000214002 /* PCDistortFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF8E471B02DB5000214002 /* PCDistortFilter.m */; };
+		4ADF8E4C1B02E7AE00214002 /* PCPolygonEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF8E4B1B02E7AE00214002 /* PCPolygonEditor.m */; };
+		4ADF8E4F1B02F09300214002 /* PCHandleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF8E4E1B02F09300214002 /* PCHandleView.m */; };
 		79C26E221A5EDD1C0054857C /* SLSSimpleVideoFilterWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C26E211A5EDD1C0054857C /* SLSSimpleVideoFilterWindowController.m */; };
 		79C26E2E1A5F02B70054857C /* SLSSimpleVideoFilterWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79C26E2D1A5F02B70054857C /* SLSSimpleVideoFilterWindowController.xib */; };
 		79E8A5FB1A5ED6A700E6A226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E8A5FA1A5ED6A700E6A226 /* AppDelegate.m */; };
@@ -55,6 +58,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4ADF8E461B02DB5000214002 /* PCDistortFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCDistortFilter.h; sourceTree = "<group>"; };
+		4ADF8E471B02DB5000214002 /* PCDistortFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCDistortFilter.m; sourceTree = "<group>"; };
+		4ADF8E4A1B02E7AE00214002 /* PCPolygonEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCPolygonEditor.h; sourceTree = "<group>"; };
+		4ADF8E4B1B02E7AE00214002 /* PCPolygonEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCPolygonEditor.m; sourceTree = "<group>"; };
+		4ADF8E4D1B02F09300214002 /* PCHandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCHandleView.h; sourceTree = "<group>"; };
+		4ADF8E4E1B02F09300214002 /* PCHandleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCHandleView.m; sourceTree = "<group>"; };
 		79C26E201A5EDD1C0054857C /* SLSSimpleVideoFilterWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSSimpleVideoFilterWindowController.h; sourceTree = "<group>"; };
 		79C26E211A5EDD1C0054857C /* SLSSimpleVideoFilterWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSSimpleVideoFilterWindowController.m; sourceTree = "<group>"; };
 		79C26E2D1A5F02B70054857C /* SLSSimpleVideoFilterWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLSSimpleVideoFilterWindowController.xib; sourceTree = "<group>"; };
@@ -119,6 +128,12 @@
 				79E8A5FE1A5ED6A700E6A226 /* Images.xcassets */,
 				79E8A6001A5ED6A700E6A226 /* MainMenu.xib */,
 				79E8A5F71A5ED6A700E6A226 /* Supporting Files */,
+				4ADF8E461B02DB5000214002 /* PCDistortFilter.h */,
+				4ADF8E471B02DB5000214002 /* PCDistortFilter.m */,
+				4ADF8E4A1B02E7AE00214002 /* PCPolygonEditor.h */,
+				4ADF8E4B1B02E7AE00214002 /* PCPolygonEditor.m */,
+				4ADF8E4D1B02F09300214002 /* PCHandleView.h */,
+				4ADF8E4E1B02F09300214002 /* PCHandleView.m */,
 			);
 			path = SimpleVideoFilter;
 			sourceTree = "<group>";
@@ -286,7 +301,10 @@
 			files = (
 				79E8A5FD1A5ED6A700E6A226 /* main.m in Sources */,
 				79E8A5FB1A5ED6A700E6A226 /* AppDelegate.m in Sources */,
+				4ADF8E481B02DB5000214002 /* PCDistortFilter.m in Sources */,
 				79C26E221A5EDD1C0054857C /* SLSSimpleVideoFilterWindowController.m in Sources */,
+				4ADF8E4C1B02E7AE00214002 /* PCPolygonEditor.m in Sources */,
+				4ADF8E4F1B02F09300214002 /* PCHandleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

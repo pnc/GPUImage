@@ -6,8 +6,10 @@
     GPUImageAVCamera *videoCamera;
     GPUImageOutput<GPUImageInput> *filter;
     GPUImageMovieWriter *movieWriter;
+  
 }
 
 @property (weak) IBOutlet GPUImageView *videoView;
+@property (weak) IBOutlet GPUImageView *distortedView;
 
 @end
